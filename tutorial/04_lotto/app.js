@@ -39,7 +39,7 @@ function paintNumber() {
 
 btn.addEventListener('click', function(){
     if(count >= 10){
-        $('.btn').addClass('blind')
+        btn.classList.add('blind')
         snackbar.createSnackbar('번호 생성은 10개까지 가능합니다.',{
             actions: [
               {
