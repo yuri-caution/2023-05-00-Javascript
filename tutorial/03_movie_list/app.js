@@ -73,8 +73,8 @@ function showMovie() {
     info.textContent = movies[idx].text
 }
 
-function inti() {
+function init() {
     showMovie()
 }
 
-inti()
+init()
